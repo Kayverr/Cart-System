@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/output.css">
-    <title>Document</title>
-</head>
-<body>
-    <header class="font-bold text-3xl p-4 bg-green-500 text-white text-center">
-        <h1>Cart System</h1>
-    </header>
-<main>
-    <section class="flex flex-col flex-row items-right gap-4 p-20 ">
-        <h1 class="bg-cover bg-left h-48 rounded-lg border-2 border-black rounded-lg p-60 ">Products</h1>
-        <h1 class="bg-cover bg-left h-48 rounded-lg border-2 border-black rounded-lg p-40 text-align ">Cart</h1>
-        <h1 class="bg-cover bg-left h-48 rounded-lg border-2 border-black rounded-lg pl-10 pr-10 ">Total</h1>
-    </section>
-</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cart System</title>
+  </head>
+
+  <body class="body-bg">
+    <main class="main-bg" id="main">
+      <!-- 1st -->
+      <section class="col-start-4 col-span-2 mt-4">
+        <article class="">
+          <h1 class="text-4xl font-bold text-center">CART SYSTEM</h1>
+        </article>
+      </section>
+      <!-- section1  2nd-->
+      <section class="P_List items-center-safe">
+
+        <article class="col-start-3 col-span-2">
+          <h2 class="text-center text-xl font-semibold">Product List</h2>
+        </article>
+<!-- first child -->
+        <article class="p1 row-start-2">
+          <h2 class="row-start-2">Product 1</h2>
+        </article>
+
+        <article class="p1 row-start-3">
+          <h2 class="row-start-2">Product 2</h2>
+        </article>
+
+        <article class="p1 row-start-4">
+          <h2 class="row-start-2">Product 3</h2>
+        </article>
+
+        <article class="p1 row-start-5">
+          <h2 class="row-start-2">Product 4</h2>
+        </article>
+
+        <article class="p2 row-start-2">
+          <h2 class="row-start-2">Product 5</h2>
+        </article>
+
+        <article class="p2 row-start-3">
+          <h2 class="row-start-2">Product 6</h2>
+        </article>
+
+        <article class="p2 row-start-4">
+          <h2 class="row-start-2">Product 7</h2>
+        </article>
+
+        <article class="p2 row-start-5">
+          <h2 class="row-start-2">Product 8</h2>
+        </article>
+      </section>
+<!-- section2 -->
+      <section class="cart items-center-safe">
+        <article class="col-start-3 col-span-2">
+          <h2 class="p-3 text-center text-xl font-semibold">Cart</h2>
+        </article>
+
+      </section>
+
+      <section class="total">
+        <article class="col-start-1 p-3">
+          <h2 class="text-center text-xl">Total:</h2>
+        </article>
+      </section>
+    </main>
+    <script src="process.js"></script>
+  </body>
 </html>

@@ -1,1 +1,41 @@
 @import "tailwindcss";
+/* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
+
+.body-bg {
+  @apply bg-gray-900 text-[#FAF9F6] font-['Ubuntu_Mono'];
+}
+.main-bg {
+  @apply grid grid-cols-8 grid-rows-7 sm:mr-10 ml-10 mt-10 md:mr-20 ml-20 mt-10 rounded-2xl bg-gradient-to-r from-blue-800 to-purple-800;
+} 
+
+.Text{
+  @apply text-[#FAF9F6] font-['Ubuntu_Mono'];
+}
+
+/* Product List */
+
+.P_List{
+   @apply col-start-1 col-span-4 row-span-6 bg-black/30 rounded-lg grid grid-cols-6 grid-rows-5 h-110 m-4;
+}
+
+.p1{
+  @apply grid col-start-1 border grid-rows-3 col-span-3 rounded-lg p-1 m-1 text-center transition duration-300 ease-in-out hover:scale-105  ;
+}
+
+.p2{
+  @apply grid col-start-4 border grid-rows-3 col-span-3 rounded-lg p-1 m-1 text-center transition duration-300 ease-in-out hover:scale-105;
+}
+/* Cart */
+
+.cart{
+    @apply col-start-5 col-span-4 row-span-6 bg-black/30 rounded-lg grid grid-cols-6 grid-rows-5 h-110 m-3;
+}
+
+.c1{
+
+}
+
+/* Total */
+.total{
+    @apply col-start-7 col-span-3 row-span-3 bg-black/30 rounded-lg grid grid-cols-5  mb-5 m-5 ;
+}
